@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/questblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/questblog/" rel="alternate" type="text/html" /><updated>2023-10-08T18:48:49-04:00</updated><id>http://localhost:4000/questblog/feed.xml</id><title type="html">Project Quest Blog</title><subtitle>Project Quest Blog</subtitle><entry><title type="html">Sprint 1</title><link href="http://localhost:4000/questblog/2023/10/08/sprint1.html" rel="alternate" type="text/html" title="Sprint 1" /><published>2023-10-08T00:00:00-04:00</published><updated>2023-10-08T00:00:00-04:00</updated><id>http://localhost:4000/questblog/2023/10/08/sprint1</id><content type="html" xml:base="http://localhost:4000/questblog/2023/10/08/sprint1.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/questblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/questblog/" rel="alternate" type="text/html" /><updated>2023-10-08T18:59:18-04:00</updated><id>http://localhost:4000/questblog/feed.xml</id><title type="html">Project Quest Blog</title><subtitle>Project Quest Blog</subtitle><entry><title type="html">Sprint 1</title><link href="http://localhost:4000/questblog/2023/10/08/sprint1.html" rel="alternate" type="text/html" title="Sprint 1" /><published>2023-10-08T00:00:00-04:00</published><updated>2023-10-08T00:00:00-04:00</updated><id>http://localhost:4000/questblog/2023/10/08/sprint1</id><content type="html" xml:base="http://localhost:4000/questblog/2023/10/08/sprint1.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;This will be my first blog post detailing my work on Project Quest; across the next two months, I’ll provide regular updates on what work I have done on this project. Thus far, I have worked with my fellow Overworld Squad designer, Glen, to design a couple of levels.&lt;/p&gt;
 
 &lt;h2 id=&quot;starting-village&quot;&gt;Starting Village&lt;/h2&gt;
 &lt;p&gt;Before this sprint had begun, Glen and I each created our own cursory takes on what the starting village could look like. We then met up during the first week of this sprint to bring our ideas together and create an ironed out village design to provide with the rest of our team. It features around ten houses, various market stalls, a branching river, and is surrounded by farmland on one side and forest on two others (which is the second area of the game, to be described later).&lt;/p&gt;
 
-&lt;p&gt;![Town][/images/Town.jpg]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Town.jpg&quot; alt=&quot;Town&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Within this town, the player will play hide and seek with a village child, directly incentivizing exploration of their surroundings to let them become accustomed to things. After finding the child at five locations, the player will enter their first battle, then be pushed out into the forest.&lt;/p&gt;
 
 &lt;p&gt;After we had created the map, which took around two hours, Glen and I began working individually for the rest of the week. I spent time updating our Confluence page for the starting village, providing an outline of the gameplay and plot progression throughout the area; this took around an hour. Before our next meeting with the entire squad, I also put together a presentation detailing the work Glen and I had done over the past week, which took about another hour to determine how to best lay out for the purpose of ensuring our squad understood our vision. 
 Following that meeting, Glen and I had two remaining goals for the rest of the sprint. The first goal was to design interiors for the buildings the player will be able to enter, which I did during a meeting with Glen; I developed a basic house interior and an interior for the town hall where we envisioned the player starting the game. These designs took around an hour to complete.&lt;/p&gt;
 
-&lt;p&gt;![Buildings][/images/Buildings.jpg]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Buildings.jpg&quot; alt=&quot;Buildings&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;forest&quot;&gt;Forest&lt;/h2&gt;
 &lt;p&gt;The second goal for the second week of our sprint was to create a cursory forest design; after I finished working on the buildings, I moved on to assist Glen in doing this. We attempted to intentionally make it more “confusing” to navigate, with three clear paths provided to the player.&lt;/p&gt;
 
-&lt;p&gt;![Forest][/images/Forest.jpg]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Forest.jpg&quot; alt=&quot;Forest&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We envision the player being directed to the upper right of the map before they can make any form of meaningful progress, after which they have three objectives; two can be completed in either order, but the third task must be completed last. This took about another hour. I then created another presentation detailing the work we had done for the week, which once again took an hour.&lt;/p&gt;
 
