@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/questblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/questblog/" rel="alternate" type="text/html" /><updated>2023-10-08T18:20:23-04:00</updated><id>http://localhost:4000/questblog/feed.xml</id><title type="html">Project Quest Blog</title><subtitle>Project Quest Blog</subtitle><entry><title type="html">Sprint 1</title><link href="http://localhost:4000/questblog/2023/10/08/sprint1.html" rel="alternate" type="text/html" title="Sprint 1" /><published>2023-10-08T00:00:00-04:00</published><updated>2023-10-08T00:00:00-04:00</updated><id>http://localhost:4000/questblog/2023/10/08/sprint1</id><content type="html" xml:base="http://localhost:4000/questblog/2023/10/08/sprint1.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This will be my first blog post detailing my work on Project Quest; across the next two months, I’ll provide regular updates on what work I have done on this project. Thus far, I have worked with my fellow Overworld Squad designer, Glen, to design a couple of levels.&lt;/p&gt;
+
+&lt;h2 id=&quot;starting-village&quot;&gt;Starting Village&lt;/h2&gt;
+&lt;p&gt;Before this sprint had begun, Glen and I each created our own cursory takes on what the starting village could look like. We then met up during the first week of this sprint to bring our ideas together and create an ironed out village design to provide with the rest of our team. It features around ten houses, various market stalls, a branching river, and is surrounded by farmland on one side and forest on two others (which is the second area of the game, to be described later).&lt;/p&gt;
+
+&lt;p&gt;![Town][/images/Town.jpg]&lt;/p&gt;
+
+&lt;p&gt;Within this town, the player will play hide and seek with a village child, directly incentivizing exploration of their surroundings to let them become accustomed to things. After finding the child at five locations, the player will enter their first battle, then be pushed out into the forest.&lt;/p&gt;
+
+&lt;p&gt;After we had created the map, which took around two hours, Glen and I began working individually for the rest of the week. I spent time updating our Confluence page for the starting village, providing an outline of the gameplay and plot progression throughout the area; this took around an hour. Before our next meeting with the entire squad, I also put together a presentation detailing the work Glen and I had done over the past week, which took about another hour to determine how to best lay out for the purpose of ensuring our squad understood our vision. 
+Following that meeting, Glen and I had two remaining goals for the rest of the sprint. The first goal was to design interiors for the buildings the player will be able to enter, which I did during a meeting with Glen; I developed a basic house interior and an interior for the town hall where we envisioned the player starting the game. These designs took around an hour to complete.&lt;/p&gt;
+
+&lt;p&gt;![Buildings][/images/Buildings.jpg]&lt;/p&gt;
+
+&lt;h2 id=&quot;forest&quot;&gt;Forest&lt;/h2&gt;
+&lt;p&gt;The second goal for the second week of our sprint was to create a cursory forest design; after I finished working on the buildings, I moved on to assist Glen in doing this. We attempted to intentionally make it more “confusing” to navigate, with three clear paths provided to the player.&lt;/p&gt;
+
+&lt;p&gt;![Forest][/images/Forest.jpg]&lt;/p&gt;
+
+&lt;p&gt;We envision the player being directed to the upper right of the map before they can make any form of meaningful progress, after which they have three objectives; two can be completed in either order, but the third task must be completed last. This took about another hour. I then created another presentation detailing the work we had done for the week, which once again took an hour.&lt;/p&gt;
+
+&lt;h2 id=&quot;extra-research&quot;&gt;Extra Research&lt;/h2&gt;
+&lt;p&gt;Alongside the actual design work, I researched what makes good village/forest designs for games. I spent some time playing Franken (one of the games that Project Quest is somewhat of a case study of) to reach the town area, but due to the brevity of the time spent here and the small size it didn’t give me much insight on town design. I then turned my attention to RPGs such as Pokemon instead; this was more useful, but due to the much more modern environment of Pokemon relative to the medieval times of Project Quest alongside the greater complexity of Pokemon it didn’t provide much direct insight. However, it did help to give ideas for how we could encourage the player to explore, which led to the development of the hide and seek game described above. I concluded my work on the village by simply doing a broad search for RPG village design techniques; I found several helpful videos on the subject, alongside various articles. Together, this research took six hours. As for the forest, I performed similar research, looking at Pokemon forest layouts and then doing a more broad search on design techniques. Additionally, I spent some time looking into various “Lost Woods” implementations (i.e. forests that are very mazelike and/or send the player backwards if they make a wrong turn) for inspiration, thinking we may be able to include a similar mechanic somewhere in the level. This research took seven hours.&lt;/p&gt;
+
+&lt;h2 id=&quot;time-breakdown&quot;&gt;Time Breakdown&lt;/h2&gt;
+&lt;p&gt;Meetings: 4 hours&lt;/p&gt;
+
+&lt;p&gt;Active level design: 4 hours&lt;/p&gt;
+
+&lt;p&gt;Confluence work: 1 hour&lt;/p&gt;
+
+&lt;p&gt;Creating presentations: 2 hours&lt;/p&gt;
+
+&lt;p&gt;Research: 13 hours&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/questblog/jekyll/update/2023/09/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-09-24T18:58:59-04:00</published><updated>2023-09-24T18:58:59-04:00</updated><id>http://localhost:4000/questblog/jekyll/update/2023/09/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/questblog/jekyll/update/2023/09/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
