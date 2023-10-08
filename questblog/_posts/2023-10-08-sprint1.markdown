@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Sprint 1"
+date:   2023-10-08 
+---
+## Introduction
+
+This will be my first blog post detailing my work on Project Quest; across the next two months, I’ll provide regular updates on what work I have done on this project. Thus far, I have worked with my fellow Overworld Squad designer, Glen, to design a couple of levels.
+
+## Starting Village
+Before this sprint had begun, Glen and I each created our own cursory takes on what the starting village could look like. We then met up during the first week of this sprint to bring our ideas together and create an ironed out village design to provide with the rest of our team. It features around ten houses, various market stalls, a branching river, and is surrounded by farmland on one side and forest on two others (which is the second area of the game, to be described later).
+
+![Town][/images/Town.jpg]
+
+Within this town, the player will play hide and seek with a village child, directly incentivizing exploration of their surroundings to let them become accustomed to things. After finding the child at five locations, the player will enter their first battle, then be pushed out into the forest. 
+
+After we had created the map, which took around two hours, Glen and I began working individually for the rest of the week. I spent time updating our Confluence page for the starting village, providing an outline of the gameplay and plot progression throughout the area; this took around an hour. Before our next meeting with the entire squad, I also put together a presentation detailing the work Glen and I had done over the past week, which took about another hour to determine how to best lay out for the purpose of ensuring our squad understood our vision. 
+Following that meeting, Glen and I had two remaining goals for the rest of the sprint. The first goal was to design interiors for the buildings the player will be able to enter, which I did during a meeting with Glen; I developed a basic house interior and an interior for the town hall where we envisioned the player starting the game. These designs took around an hour to complete.
+
+![Buildings][/images/Buildings.jpg]
+
+## Forest
+The second goal for the second week of our sprint was to create a cursory forest design; after I finished working on the buildings, I moved on to assist Glen in doing this. We attempted to intentionally make it more “confusing” to navigate, with three clear paths provided to the player. 
+
+![Forest][/images/Forest.jpg]
+
+We envision the player being directed to the upper right of the map before they can make any form of meaningful progress, after which they have three objectives; two can be completed in either order, but the third task must be completed last. This took about another hour. I then created another presentation detailing the work we had done for the week, which once again took an hour.
+
+## Extra Research
+Alongside the actual design work, I researched what makes good village/forest designs for games. I spent some time playing Franken (one of the games that Project Quest is somewhat of a case study of) to reach the town area, but due to the brevity of the time spent here and the small size it didn’t give me much insight on town design. I then turned my attention to RPGs such as Pokemon instead; this was more useful, but due to the much more modern environment of Pokemon relative to the medieval times of Project Quest alongside the greater complexity of Pokemon it didn’t provide much direct insight. However, it did help to give ideas for how we could encourage the player to explore, which led to the development of the hide and seek game described above. I concluded my work on the village by simply doing a broad search for RPG village design techniques; I found several helpful videos on the subject, alongside various articles. Together, this research took six hours. As for the forest, I performed similar research, looking at Pokemon forest layouts and then doing a more broad search on design techniques. Additionally, I spent some time looking into various “Lost Woods” implementations (i.e. forests that are very mazelike and/or send the player backwards if they make a wrong turn) for inspiration, thinking we may be able to include a similar mechanic somewhere in the level. This research took seven hours.
+
+## Time Breakdown
+Meetings: 4 hours
+
+Active level design: 4 hours
+
+Confluence work: 1 hour
+
+Creating presentations: 2 hours
+
+Research: 13 hours
