@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Start of Sprint 2"
+date:   2023-10-22 
+---
+## Introduction
+
+This is my second blog post detailing my work on Project Quest. Thus far, I have worked with my fellow Overworld Squad designer, Glen, to design a couple of levels.
+
+## Refining the Forest
+After creating the basic forest layout detailed in my last blog post, Glen and I knew it would still need to be refined. We each added our own improvements to the layout from before; it now has the river from the town running through, the maze is more complex, and we added details such as the Druid's home being able to be found within the woods, alongside various more minor edits. Additionally, we refined our ideas for the quests/minigames to be found in the area. The updated design is pictured below.
+
+![Forest](/questblog/images/Forest2.jpg)
+
+The player will need to go through a movement based puzzle in order to ally with the fungi, and need to collect various items for the ants; these both result in encounters, with a final encounter with the council of deer being tied to completing both of these. All of this took two hours of work. After this, Glen and I put together a few slides to present in the group meeting, which took me another hour to try to focus in on the core details that we needed to convey. 
+
+## Village Revisit
+
+Alongside the work refining the forest design, Glen and I also began work on updating the village map for the revisit. It was fairly basic, with a few paths blocked off and other paths opened up, parts of the town on fire, and so on; this was the result of an hour of work and brainstorming. Following that, Glen and I worked together to refine this design over the past week; we designed a quest that would force the player to once again traverse the area (this time searching for clues as to why the village has been damaged so heavily), as well as a push block puzzle (which now unfortunately needs to be cut for scope reasons). This took another hour of work. 
+
+![Town](/questblog/images/Revisit.jpg)
+
+## Preliminary Castle
+
+Finally, we began preliminary work on a castle map for the game's final area. It will feature a maze and throne room, which are works in progress. We spent half an hour on this.
+
+![Castle](/questblog/images/Castle.jpg)
+
+After Glen and I met up to do this design work, I spent time updating the Confluence to describe the flow of the village revisit in the best way I could think of. This took an hour. I then created yet another presentation to show the group explaining the work Glen and I had made, which took an hour and a half. 
+
+
+## Extra Research
+Alongside the actual design work, I once again performed supplementory research, this time largely on dungeon design. I spent some time playing through and watching others play through dungeons in various RPGs (such as Pokemon and Trails in the Sky, among others) to try to find a common through line that we could play off of, as well as watching videos and reading articles on the topic. Unfortunately, due to time and scope limitations I don't believe we'll be able to implement much of what I learned; we won't even be able to implement the push block puzzle mechanic that we'd intended to include, and we will not be able to include any wholly new features in the coming weeks. This research took twelve hours.
+
+## Time Breakdown
+Meetings: 4 hours
+
+Active level design: 4.5 hours
+
+Confluence work: 1.5 hour
+
+Creating presentations: 2 hours
+
+Research: 12 hours
