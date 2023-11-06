@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Moving from Sprint 2 to Sprint 3"
+date:   2023-11-05 
+---
+## Introduction
+
+This is my third blog post detailing my work on Project Quest. Thus far, I have worked with my fellow Overworld Squad designer, Glen, to design the majority of Project Quest's levels.
+
+## Refining the Castle
+After creating the basic castle layout detailed in my last blog post, it remained in obvious need of refinement. As such, I took the initiative to update it to make the maze actually complex and interesting, rather than being a series of switchbacks. I looked at various existing mazes for inspiration, then turned to online maze generators to try to get the kernel of an idea; however, most maze generators I would find would have half of the maze be completely pointless, only being reachable if the player were to ignore the obvious exit and continue on. That works for some games, but with our relatively limited reward system for exploration it would feel out of place, and so I went mostly from scratch with my designs. 
+
+![Forest](/questblog/images/Castle2.jpg)
+
+This base level of maze design took me around two hours of work. Beyond this, the maze felt barren without any point to having wrong turns beyond stalling the player. I considered what could be done, and decided to put in a few bonus upgrades for the player on wrong paths. I updated the documentation to reflect this, and put together a presentation to showcase my changes to my squad. The following week, I added "guards" to the maze design that would instruct the player on the correct direction if spoken to, then updated the documentation and created another presentation. This additional design work took another hour, and the combined time spent on documentation and presentations was another two and a half hours.
+
+## Moving to Programming
+
+With each of the levels designed, there's not much left to do as a level designer. As a result, I've begun to shift gears into aiding the programming team in implementation. I spent an hour and a half preparing everything I would need to do so; installing the proper Unity version, connecting the project's Bitbucket repository to my Github Desktop, and other basic prep work.
+
+For specific programming tasks, implementing cutscenes is a time consuming process, so I began work on one. However, I've had many issues with the process of cutscene creation. I wasn't sure how things were set up, so I poked around at the Confluence in search of instruction. However, I couldn't find anything; I then began to blindly poke at the assets folder and village's scene in Unity, hoping there'd be some obvious clues, but again came up empty. 
+
+At this point I realized I had no idea where to begin, so I sent out a call to the Discord server in hopes someone would be able to help. Even more unfortunately, the person most experienced with the cutscene mechanics was unavailable as a result of helping run a booth for our studio at a nearby convention. I went to our Studio group work session and was able to begin figuring things out with someone else who'd moved to working on cutscenes, and we slowly began piecing together how it works (also aided by our studio head). I finally got a cutscene with a village child semi-working, but as I'd modified existing level progression framework to get to that point it was very buggy. I set it aside for the time being, and when I came back to work on it again I pulled the updated code from the repository. This broke the cutscene I'd been working on completely due to merge conflicts. I quickly scrambled to start over and put things back together from what I'd remembered doing before, but couldn't seem to get it back to that semi-working state I'd had earlier. Thanks to what I've learned, I should be able to figure out what went wrong and make solid progress on this cutscene as well as others going forwards. All of this cutscene work was 13 hours.
+
+## Time Breakdown
+Meetings: 4 hours
+
+Active level design: 3 hours
+
+Documentation: 2.5 hours
+
+Programming preparation: 1.5 hours
+
+Cutscene work: 13 hours
