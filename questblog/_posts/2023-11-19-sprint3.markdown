@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Finishing Sprint 3"
+date:   2023-11-19
+---
+## Introduction
+
+This is my fourth blog post detailing my work on Project Quest. At this point, my role has entirely transitioned into programming support. 
+
+## Integrating cutscenes into the level progression
+
+As I talked about in my last blog post, I'd previously managed to get a cutscene for the hide and seek quest mostly functional on its own by copying and heavily modifying an existing cutscene; however, I still needed to figure out how to integrate the cutscene into the progression systems by replacing some of the existing framework without breaking anything in the process. I took some time to recreate the cutscene that had broken before in a merge conflict. This took around 1.5 hours. After that, I began figuring out how to make it so that the cutscene trigger would activate only after requirements had been met; the existing methods of doing so didn't seem to be working with anything I tried, so I created a small script from scratch. In this case the requirement was simple: the previous cutscene simply had to be activated. I created a simple script that, when the attached gameobject was enabled by Unity's timeline system, would activate a separate game object. By making it so that this separate object was the "parent" of the next cutscene, I could make it so one cutscene enables another, giving me the needed progression system. Figuring out how to best implement this and doing the actual implementation took another 1.5 hours. 
+
+## Bug fixing Pt. 1
+
+With the first cutscene structurally complete, I began to work on the other needed cutscenes. However, I was facing two bugs: after the first cutscene the child could not be spoken to again or the cutscene would simply freeze depending on a certain setting, and despite having a cutscene the screen would still fade to black afterwards as it had been doing before I implemented the cutscene to begin with (when the cutscene wouldn't freeze). I spent some time trying to figure these out, but nothing I tried was working so I went and asked for some help in our Discord server. Yanmei, a fellow studio member, was able to figure out that there was a specific setting I was overlooking; by adjusting that setting, I was able to solve the first issue. However, I realized there was yet another bug I'd overlooked: hiding spots would be skipped over, as if the cutscene was progressing the associated quest twice rather than once. I solved this issue by figuring out that specific dialogue being triggered would progress a quest just as the cutscene's timeline would; I needed the timeline function though, so I altered the settings of the dialogue to remove the quest progression trigger. This just left the second of the original issues, which was actually just something I'd overlooked: I just had to turn off the fade to black trigger for the cutscene after the one I'd been doing it for. This bug fixing took 4 hours. 
+
+## The rest of the cutscenes
+
+Now that I'd worked out those bugs, I set about on creating cutscenes for the other hiding spots. I simply repeated the process from the first, which I'd become faster at at this point. I copied the first's timeline object and hierarchy objects, then adjusted settings as needed to better fit the layouts of the areas for the other cutscenes. This took me 3 hours. 
+
+## Bug fixing Pt. 2
+
+There were two bugs I was facing with the rest of the cutscenes that hadn't shown up for the first. Firstly, when the cinematic camera would adjust upon a cutscene being trigger the background would simply become what I believe was the sky box, the environment disappearing completely. Secondly, even my rudimentary animations would not play whatsoever. I spent some time banging my head against the wall for the first one, only to realize I'd simply overlooked something small but crucial: to position the camera I'd been copying and pasting from the "hiding spot" transforms to the camera transforms, but this didn't just adjust the position - it also adjusted scale and rotation, which I hadn't noticed due to those having separate "copy" options in the menu. By typing in the position values manually, the camera would function properly.
+
+For the second bug, I eventually realized that the child's animator was remaining disabled for some reason after the initial hiding spot cutscene. With that stuck disabled, the child obviously couldn't be animated afterwards. I tried to figure out what was causing the animator to remain disabled while it wouldn't for cutscenes made by others, but I couldn't figure out the source of my bug. Just throwing things at the wall at this point, I simply turned off one of the activation tracks in the Unity timeline on a prior cutscene to see if that would help, which it did. Fixing these bugs took another 3 hours, for 7 total hours of bug fixing. 
+
+## Animation
+
+Now that I had each cutscene structually complete, I had to actually work on the visuals. There were two stages to this: pathing the child's movement and properly animating them. Pathing the child's movement is a simple but tedious process, especially for someone inexperienced with the animation system in Unity, especially if you're trying to maintain consistency in the movements. I had to repeatedly adjust the child's positioning at various stages in the timeline to get the desired effects, which became even more difficult in the final cutscene where I had to do a more complex movement path than I'd dealt with before due to a house being in the way of what would be the "easy" path. But eventually I got done, and I moved on to dealing with actually creating animations of the child's sprite moving. Unfortunately, the only existing animation had been the least useful for my purposes. More fortunately, the sprite sheet was already set up in a way that made the "progression" of the animation obvious, and I had the existing animation to use as a guide as well. However, I'm still not fully used to the animation system. I copied the existing animation and tried to edit it, which seemed to be going well at first - until I realized I was editing the original. I deleted those changes, only to find that I couldn't edit the copy of the animations whatsoever. I thought it might've been an issue with the editor so I reset Unity, but the issue remained. After poking around a while longer, I finally realized that I had to first attach the animation to the child object, and then it would allow editing. From there it was simple to create the needed animations, and I inserted them into the cutscenes as needed. Doing the animation work took me 5 hours. 
+
+## Other Work
+
+With the hide and seek cutscenes fully functional, I spent some time beginning to improve the other cutscenes that had been made before I began working on the hide and seek cutscenes. They'd been made based on an earlier variation of the level layout, leaving them out of date with characters running straight through objects. I began to work on solving this, and have spent 2 hours doing so. 
+
+## Time Breakdown
+Meetings: 4 hours
+
+Recreating initial cutscene: 1.5 hours
+
+Figuring out how to enable cutscenes properly: 1.5 hours
+
+Creating subsequent cutscenes: 3 hours
+
+Fixing bugs with cutscenes: 7 hours
+
+Animation: 5 hours
+
+Beginning to update other cutscenes: 2 hours
+
+Total: 24 hours

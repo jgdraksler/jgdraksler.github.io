@@ -32,3 +32,5 @@ Documentation: 2.5 hours
 Programming preparation: 1.5 hours
 
 Cutscene work: 13 hours
+
+Total: 24 hours

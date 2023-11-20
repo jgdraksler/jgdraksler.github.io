@@ -39,3 +39,5 @@ Confluence work: 1 hour
 Creating presentations: 2 hours
 
 Research: 13 hours
+
+Total: 24 hours
